@@ -1,6 +1,6 @@
 function validarEdad(edad) {
     if(isNaN(edad) || edad <0) {
-        throw new Error("Edad válida");
+        throw new Error("Edad inválida");
     }
     return "Edad válida: " + edad;
 }
@@ -16,3 +16,4 @@ function probarEdad () {
         out.textContent = e.name + ": " + e.message;
     }
 }
+
