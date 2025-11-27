@@ -2,7 +2,7 @@ const boton = document.getElementById("btnCargarMensaje");
 const mensaje = document.getElementById("mensaje");
 const confirm = document.getElementById("confirmacion");
 
-function cargarMensaje (callback) {
+function cargarMensaje () {
     return new Promise ((resolve, reject) => {
         setTimeout (() => {
             resolve("Mensaje cargado.");
